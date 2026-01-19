@@ -40,8 +40,8 @@ A comprehensive evaluation framework for assessing receipt/invoice information e
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/receipt-ie-eval.git
-cd receipt-ie-eval
+git clone https://github.com/Safeoffellow/ReceiptBench.git
+cd receipt-eval
 
 # Install dependencies
 pip install -r requirements.txt
@@ -232,20 +232,6 @@ The evaluation generates two files:
 
 Human-readable report with tables for overall metrics, field-level metrics, and subtask performance.
 
-## 🎓 Citation
-
-If you use this evaluation framework in your research, please cite:
-
-```bibtex
-@misc{receipt-ie-eval,
-  author = {Your Name},
-  title = {Receipt Information Extraction Evaluation Framework},
-  year = {2024},
-  publisher = {GitHub},
-  howpublished = {\url{https://github.com/your-repo/receipt-ie-eval}}
-}
-```
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -256,7 +242,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
 
-For questions or issues, please open an issue on GitHub or contact [your-email@example.com].
+For questions or issues, please open an issue on GitHub.
 
 ## 🙏 Acknowledgments
 
