@@ -15,10 +15,9 @@ A comprehensive evaluation framework for assessing receipt/invoice information e
 - [Evaluation Metrics](#evaluation-metrics)
 - [Field Types](#field-types)
 - [Advanced Usage](#advanced-usage)
-- [Citation](#citation)
 - [License](#license)
 
-## ✨ Features
+## ✨ Features<a id="features"></a>
 
 - **Multi-Field Evaluation**: Supports 20+ fields including exact match, amount comparison, and semantic similarity
 - **LLM-Based Semantic Judgment**: Uses large language models (Qwen, GPT, etc.) for sophisticated text comparison
@@ -28,7 +27,7 @@ A comprehensive evaluation framework for assessing receipt/invoice information e
 - **Comprehensive Metrics**: Accuracy, Precision, Recall, F1-Score for each field and overall
 - **Efficient Caching**: Automatic result caching to avoid redundant LLM calls
 
-## 🚀 Installation
+## 🚀 Installation<a id="installation"></a>
 
 ### Prerequisites
 
@@ -53,7 +52,7 @@ pip install -r requirements.txt
 pip install torch transformers scipy numpy python-Levenshtein
 ```
 
-## 🎯 Quick Start
+## 🎯 Quick Start<a id="quick-start"></a>
 
 ### Basic Usage
 
@@ -79,7 +78,7 @@ python receipt_evaluator.py \
   --num-model-instances 3
 ```
 
-## 📖 Usage
+## 📖 Usage<a id="usage"></a>
 
 ### Command Line Arguments
 
@@ -97,7 +96,7 @@ Optional Arguments:
   --num-model-instances INT  Number of LLM instances for parallel inference (default: 1)
 ```
 
-## 📊 Evaluation Metrics
+## 📊 Evaluation Metrics<a id="evaluation-metrics"></a>
 
 The framework computes the following metrics for each field and overall:
 
@@ -113,7 +112,7 @@ The framework computes the following metrics for each field and overall:
 - **FP (False Positive)**: Predicted non-empty when should be empty
 - **FN (False Negative)**: Predicted empty when should be non-empty
 
-## 🏷️ Field Types
+## 🏷️ Field Types<a id="field-types"></a>
 
 The framework supports three evaluation strategies:
 
@@ -139,7 +138,7 @@ Fields: `orig_curr` (using Hungarian algorithm), `detail` (using multi-metric ma
 
 Comparison: Optimal assignment with similarity scoring
 
-## 🔧 Advanced Usage
+## 🔧 Advanced Usage<a id="advanced-usage"></a>
 
 ### Multi-Task Evaluation
 
@@ -232,7 +231,7 @@ The evaluation generates two files:
 
 Human-readable report with tables for overall metrics, field-level metrics, and subtask performance.
 
-## 📝 License
+## 📝 License<a id="license"></a>
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
