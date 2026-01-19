@@ -19,7 +19,7 @@ A comprehensive evaluation framework for assessing receipt/invoice information e
 
 ## ✨ Features<a id="features"></a>
 
-- **Multi-Field Evaluation**: Supports 20+ fields including exact match, amount comparison, and semantic similarity
+- **Multi-Field Evaluation**: Supports 15+ fields including exact match, amount comparison, and semantic similarity
 - **LLM-Based Semantic Judgment**: Uses large language models (Qwen, GPT, etc.) for sophisticated text comparison
 - **Hungarian Algorithm**: Optimal matching for list-based fields (e.g., itemized details)
 - **Multi-Model Parallel Inference**: Load multiple LLM instances for faster evaluation
