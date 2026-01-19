@@ -17,7 +17,7 @@ def main():
         'Task_1_Perception': './data/test_subsets/Task_1_Perception',
         'Task_2_Normalization': './data/test_subsets/Task_2_Normalization',
         'Task_3_Reasoning': './data/test_subsets/Task_3_Reasoning',
-        'Task_4_Extraction': './data/test_subsets/Task_4_Extraction'
+        'Task_4_Structure': './data/test_subsets/Task_4_Structure'
     }
     
     # Create evaluator with multi-task support
@@ -40,7 +40,7 @@ def main():
     print("- Task 1 (Perception): OCR accuracy")
     print("- Task 2 (Normalization): Data standardization")
     print("- Task 3 (Reasoning): Inference accuracy")
-    print("- Task 4 (Extraction): Detail extraction")
+    print("- Task 4 (Structure): Detail extraction")
 
 if __name__ == "__main__":
     main()

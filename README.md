@@ -24,7 +24,7 @@ A comprehensive evaluation framework for assessing receipt/invoice information e
 - **LLM-Based Semantic Judgment**: Uses large language models (Qwen, GPT, etc.) for sophisticated text comparison
 - **Hungarian Algorithm**: Optimal matching for list-based fields (e.g., itemized details)
 - **Multi-Model Parallel Inference**: Load multiple LLM instances for faster evaluation
-- **Multi-Task Support**: Evaluate performance across different subtasks (Perception, Normalization, Reasoning, Extraction)
+- **Multi-Task Support**: Evaluate performance across different subtasks (Perception, Normalization, Reasoning, Structure)
 - **Comprehensive Metrics**: Accuracy, Precision, Recall, F1-Score for each field and overall
 - **Efficient Caching**: Automatic result caching to avoid redundant LLM calls
 
@@ -148,7 +148,7 @@ The framework automatically evaluates four subtasks if subtask directories are p
 - **Task 1 - Perception**: OCR accuracy (invoice_number, tax_number, etc.)
 - **Task 2 - Normalization**: Data standardization (std_start_time, std_total, etc.)
 - **Task 3 - Reasoning**: Inference tasks (type, place, departure, arrival, etc.)
-- **Task 4 - Extraction**: Itemized detail extraction
+- **Task 4 - Structure**: Itemized detail extraction
 
 ```bash
 python receipt_evaluator.py \
